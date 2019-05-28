@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/MainParentRelativeLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent">
+
+        <ImageButton
+            android:id="@+id/button1"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:clickable="true"
+            android:layout_marginLeft="0dp"
+            android:src="@mipmap/ic_launcher" />
+    </LinearLayout>
+</FrameLayout>
