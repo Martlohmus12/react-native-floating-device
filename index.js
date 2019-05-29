@@ -1,5 +1,4 @@
-import "./ReactotronConfig"
-import { AppRegistry } from 'react-native';
-import App from './App';
+'use strict';
 
-AppRegistry.registerComponent('floatingwidget', () => App);
+import { NativeModules } from 'react-native';
+module.exports = NativeModules;

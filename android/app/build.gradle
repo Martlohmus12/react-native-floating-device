@@ -117,10 +117,16 @@ android {
         }
     }
     buildTypes {
+        debug {
+          
+        }
+
+        releaseStaging {
+          
+        }
+
         release {
-            minifyEnabled false
-            matchingFallbacks = ['release', 'debug']
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        
         }
     }
     // applicationVariants are e.g. debug, release
